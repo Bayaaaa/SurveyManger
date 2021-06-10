@@ -1,0 +1,163 @@
+body{
+	/*height: 3000px;*/
+}
+.empty-div{
+	height: 450px;
+}
+.question{
+	margin-bottom: 10px;
+}
+.answer{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* start style user-statistics page */
+.home-stats h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #8c8c8c;
+}
+.home-stats .stat{
+	padding: 20px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	position: relative;
+    overflow: hidden; 
+
+}
+.home-stats .stat i{
+	font-size: 75px;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+.home-stats .stat .info{
+	float: right;
+}
+.home-stats .stat a{
+	color: #fff;
+}
+.home-stats .stat a:hover{
+	text-decoration: none;
+}
+.home-stats .stat span{
+	font-size: 50px;
+	display: block;
+}
+.home-stats .st-all{
+	background-color: #3498db;
+}
+.home-stats .st-public{
+	background-color: #c0392b;
+}
+.home-stats .st-private{
+	background-color: #d35400;
+}
+
+.home-stats .value{
+    font-size: 25px;
+    float: right;
+}
+.home-stats .value span{
+    display: inline-block;
+}
+/* end style user-statistics page */
+
+
+.survey .title h3{
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+/* start style index page */
+.cover{
+	background-image: url('../images/cover.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;	
+}
+.cover-in{
+	background-color: rgba(0,0,0,0.3);
+	height: 500px;	
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.statistics{
+	padding-bottom: 20px;
+}
+.statistics .title {
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.statistics .stat{
+	margin-top: 20px;
+}
+.statistics .stat i{
+	font-size: 120px;
+}
+.statistics .stat .stat-title{
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+.statistics .stat .count{
+	margin-top: 5px;
+	font-size: 30px;
+}
+
+.slogin{
+	background-image: url('../images/slogin.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;	
+}
+.slogin-in{
+	background-color: rgba(0,0,0,0.3);
+	height: 500px;	
+}
+.slogin-in p{
+	color: #eeeeee;
+	font-size: 50px;
+	padding-top: 250px; 
+}
+.last-surveies{
+	padding-bottom: 50px;
+}
+.last-surveies .title {
+	font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.last-surveies .survey{
+	background-color: #eee;
+	padding: 30px;
+	margin-top: 5px;
+
+}
+.last-surveies .survey .title-survey{
+	font-size: 20px;
+}
+.footer{
+	height: 50px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #000;
+}
+/* end style index page */
+
+
+select.form-control.multi-lang {
+    margin-top: 6px;
+    background-color: aqua;
+}
